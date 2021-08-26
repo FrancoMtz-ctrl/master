@@ -1,0 +1,86 @@
+body{
+    background: rgb(176, 184, 166);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+header {
+    background: blanchedalmond;
+    text-align: center;
+}
+
+nav{
+    background: black;
+}
+ul{
+    
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    
+}
+ul li a:hover{
+    background-color: darkgrey;
+}
+.item-right {
+    float: right;
+    margin-right: 5px;
+}
+
+footer a{
+    
+        text-decoration: none ; 
+
+    
+}
+
+#container {
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    
+}
+
+#container .portrait img{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+
+#container .galery  {
+    width: 50%;
+    display: flex
+
+}
+
+
+#container .galery .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    margin-right: 1px;
+    border:solid;
+}
+
+#container .galery .card img{
+    width: 330px;
+    height: 220px;
+    border: 1px solid black;
+    }
+
+    #container .galery .card:hover{
+        transform: translateY(-15px);
+        }
